@@ -1,175 +1,133 @@
-# Decision Table Testing | Manual Testing
+# 📊 Decision Table Testing | Manual Testing
 
 ## Overview
 
 This repository contains my **Decision Table Testing** assignment completed during my **Manual Testing Training at Coforge**.
 
-Decision Table Testing is a **Black Box Testing** technique used to verify application behavior when multiple input conditions determine different outcomes. It is particularly useful for testing business rules and complex decision-making logic.
+Decision Table Testing is a **Black Box Testing** technique used to validate application behavior when multiple input conditions determine different outcomes. It is widely used for testing complex business rules and decision-making logic.
 
 ---
 
-## Objective
+## Objectives
 
-The objective of this assignment is to:
-
-- Understand Decision Table Testing
+- Learn Decision Table Testing methodology
 - Design rule-based test cases
-- Validate business logic
+- Validate business logic using decision tables
 - Improve test coverage
 - Reduce missing test scenarios
-- Apply software testing concepts to real-world applications
+- Apply manual testing concepts to real-world use cases
 
 ---
 
-## Project Overview
+## Project Highlights
 
-This assignment contains five real-world business scenarios where application behavior changes based on multiple conditions.
+This assignment demonstrates the creation of decision tables and derived test cases for five real-world application scenarios.
 
 Each scenario includes:
 
 - Decision Table
-- Conditions
+- Business Conditions
 - Rules
-- Actions
-- Test Cases
-- Expected Results
-- Individual Test Case Explanation
+- Expected Actions
+- Derived Test Cases
+- Test Case Explanation
 
 ---
 
 ## Scenarios Covered
 
-### 1. Online Food Delivery Order
+### 🍔 1. Online Food Delivery Order
 
-Business rules tested:
-
-- Restaurant availability
-- Item availability
-- Payment status
-- Delivery address validation
-- Delivery partner availability
-
-Expected outputs include:
-
-- Order Confirmed
-- Restaurant Closed
-- Item Out of Stock
-- Payment Failed
-- Invalid Delivery Address
+- Restaurant Availability
+- Item Availability
+- Payment Status
+- Delivery Address Validation
+- Delivery Partner Availability
 
 ---
 
-### 2. Hotel Room Booking
+### 🏨 2. Hotel Room Booking
 
-Business rules tested:
-
-- Room availability
-- Guest registration
-- Payment validation
-- Check-in date validation
-- Cancellation policy
-
-Expected outputs include:
-
-- Booking Confirmed
-- Room Unavailable
-- Registration Required
-- Payment Failed
-- Invalid Check-in Date
+- Room Availability
+- Guest Registration
+- Payment Validation
+- Check-in Date Validation
+- Cancellation Policy
 
 ---
 
-### 3. Car Rental Application
+### 🚗 3. Car Rental Application
 
-Business rules tested:
-
-- Car availability
-- Driving license validation
-- Payment status
-- Minimum age verification
-- Insurance selection
-
-Expected outputs include:
-
-- Rental Confirmed
-- Car Unavailable
-- Invalid License
-- Payment Failed
-- Age Restriction
+- Car Availability
+- Driving License Validation
+- Payment Verification
+- Minimum Age Validation
+- Insurance Selection
 
 ---
 
-### 4. Insurance Claim Approval
+### 🏥 4. Insurance Claim Approval
 
-Business rules tested:
-
-- Policy status
-- Required documents
-- Claim amount
-- Claim submission timeline
-- Fraud verification
-
-Expected outputs include:
-
-- Claim Approved
-- Policy Inactive
-- Documents Missing
-- Claim Exceeds Limit
-- Claim Filed Late
+- Policy Status
+- Required Documents
+- Claim Amount Validation
+- Submission Timeline
+- Fraud Verification
 
 ---
 
-### 5. Job Application Submission
+### 💼 5. Job Application Submission
 
-Business rules tested:
-
-- Position availability
-- Resume upload
-- Eligibility criteria
-- Application deadline
-- Fee payment
-
-Expected outputs include:
-
-- Application Submitted
-- Position Closed
-- Resume Required
-- Not Eligible
-- Deadline Passed
+- Position Availability
+- Resume Upload
+- Eligibility Verification
+- Application Deadline
+- Fee Payment
 
 ---
 
-## Testing Technique Used
+## Testing Techniques Used
 
 - Decision Table Testing
 - Black Box Testing
 - Functional Testing
-- Business Rule Validation
 - Positive Testing
 - Negative Testing
+- Business Rule Validation
 
 ---
 
 ## Skills Demonstrated
 
 - Manual Testing
+- Decision Table Design
 - Test Case Design
 - Requirement Analysis
 - Functional Testing
 - Business Rule Validation
-- Decision Table Testing
 - Software Testing Fundamentals
 
 ---
 
 ## Repository Structure
 
-```
-📂 decision-table-testing
+```text
+decision-table-testing/
 │
-├── Decision_Table_Testing.pdf
-└── README.md
+├── README.md
+├── Decision_Table_Testing.docx
+└── Decision_Table_Testing.pdf
 ```
+
+---
+
+## Files Included
+
+| File | Description |
+|------|-------------|
+| Decision_Table_Testing.docx | Editable source document |
+| Decision_Table_Testing.pdf | Final submission document |
+| README.md | Project documentation |
 
 ---
 
@@ -177,11 +135,11 @@ Expected outputs include:
 
 Through this assignment, I learned how to:
 
-- Create decision tables from business requirements
-- Identify all possible condition combinations
-- Derive optimized test cases
-- Validate complex application workflows
-- Improve software quality through structured testing
+- Design decision tables from business requirements
+- Identify all possible combinations of conditions
+- Create optimized test cases
+- Validate complex workflows efficiently
+- Improve software quality using structured testing techniques
 
 ---
 
@@ -196,14 +154,7 @@ Through this assignment, I learned how to:
 
 ## About Decision Table Testing
 
-Decision Table Testing is a Black Box Testing technique used when an application's output depends on multiple input conditions. It helps ensure that every valid combination of conditions is tested, making it highly effective for validating complex business rules.
-
----
-
-## Repository Contents
-
-- Decision Table Testing Assignment (PDF)
-- README Documentation
+Decision Table Testing is a structured **Black Box Testing** technique that represents combinations of input conditions and corresponding system actions in a tabular format. It helps testers ensure complete coverage of business rules while minimizing redundant test cases.
 
 ---
 
@@ -215,4 +166,4 @@ Manual Testing Trainee | Coforge
 
 ---
 
-## ⭐ If you found this repository useful, consider giving it a Star.
+⭐ **If you found this repository helpful, consider giving it a Star.**
